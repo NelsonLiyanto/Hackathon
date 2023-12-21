@@ -51,7 +51,7 @@ function intialize() {
 
         if(!lose && row == height) {
             lose = true;
-            document.getElementById("answer").innerText = word
+            document.getElementById("answer").innerText = word  
         }
     })
 }
