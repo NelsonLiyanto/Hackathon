@@ -4,7 +4,10 @@ let row = 0;
 let col =0;
 
 let lose =false
-let word = "SQUID"
+let wordlist = ["SQUID", "BISON", "CAMEL", "COBRA", "EAGLE"]
+
+let word = wordlist[Math.floor(Math.random() * wordlist.length)].toUpperCase()
+console.log(word);
 
 window.onload = function() {
     intialize();
