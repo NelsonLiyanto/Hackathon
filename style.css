@@ -1,0 +1,19 @@
+/* 
+COLOR PALETTE
+#FFE5E5 LIGHTEST
+#E0AED0
+#AC87C5
+#756AB6 DARKEST
+*/
+
+body{
+    margin: 0;
+    background-color: #FFE5E5;
+}
+
+#menu-container{
+    background-color: #756AB6;
+    width: 50%;
+    height: 50vh;
+    margin: auto;
+}
