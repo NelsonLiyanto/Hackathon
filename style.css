@@ -45,16 +45,22 @@ h1 {
     background-color: #6AAA64;
     color: white;
     border-color: white;
+    rotate: 360deg;
+    transition: all 1s;
 }
 
 .maybe {
     background-color: #C9B458;
     color: white;
     border-color: white;
+    rotate: 360deg;
+    transition: all 1s;
 }
 
 .wrong {
     background-color: #787C7E;
     color: white;
     border-color:white;
+    rotate: 360deg;
+    transition: all 1s;
 }
