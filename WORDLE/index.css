@@ -40,3 +40,13 @@
     color: white;
     border-color: white;
 }
+
+#answer {
+    color: black;
+    font-size: 36px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    font-fam
+}

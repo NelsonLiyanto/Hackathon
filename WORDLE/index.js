@@ -50,10 +50,15 @@ function intialize() {
             currentTile.innerText = ''
         }
         else if (e.code == 'Enter') {
-            update()
-            row += 1 //start new row
-            col = 0 /// start at 0 for new row
-            //jika pake guesslist ini pindah kebawah
+            if (col === widht) {
+                update()
+                row += 1 //start new row
+                col = 0 /// start at 0 for new row
+                //jika pake guesslist ini pindah kebawah
+                document.getElementById('answer').innerText = "";
+            } else if (col < widht) {
+                document.getElementById('answer').innerText = "Fill the tile!";
+            }
         }
 
         if (!gameOver && row == height) {
