@@ -39,9 +39,14 @@ function intialize() {
             let curbox = document.getElementById(row.toString() + "-"+ col.toString());
             curbox.innerText = "";
         } else if(key.code == "Enter") {
-            update();
-            row++;
-            col =0;
+            if(col === 5) {
+                update();
+                row++; 
+                col =0;
+                document.getElementById("answer").innerText = ""  
+            } else if(col < 5) {
+                document.getElementById("answer").innerText = "masukan kata yang lengkap"
+            }
         }
 
         if(!lose && row == height) {
