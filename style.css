@@ -1,0 +1,64 @@
+.background {
+    background-image: url(https://media1.tenor.com/m/H549T-Zxtg0AAAAd/anime-aesthetic.gif);
+    background-position: center;
+    background-size: cover;       
+    overflow: hidden;
+}
+hr {
+    width: 500px;
+}
+h1 {
+    text-align: center;
+}
+
+.title {
+    font-size: 75px;
+    color: #7de718;
+}
+
+#board {
+    width: 350px;
+    height: 420px;
+    margin: 0 auto;
+    margin-top: 3px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    border: 2px solid #756AB6;
+    width: 60px;
+    height: 60px;
+    margin: 2.5px;
+
+    color: rgb(10, 200, 64);
+    font-size: 36px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.correct {
+    background-color: #6AAA64;
+    color: white;
+    border-color: white;
+    /* rotate: 360deg; */
+    transition: all 1s;
+}
+
+.maybe {
+    background-color: #C9B458;
+    color: white;
+    border-color: white;
+    rotate:180deg ;
+    transition: all 1s;
+}
+
+.wrong {
+    background-color: #787C7E;
+    color: white;
+    border-color:white;
+    rotate: 360deg;
+    transition: all 1s;
+}
